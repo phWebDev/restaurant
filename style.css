@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-image{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position:50% 50% ;
+    background-image: url("imgs/top-bg.jpg");
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    background:rgba(0,0,0,.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.overlay h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    transition: 3s;
+}
+.overlay p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    transition: 3s;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    position: fixed;
+    background-color: rgba(0,0,0,.4);
+    transition: 2s;
+}
+.logo{
+    font-size: 30px;
+    color: tomato; 
+    float: left;
+    margin-left: 30%;
+    margin-right: 20%;
+    font-family: 'Yellowtail', cursive;
+    transition: 2s;
+}
+.menu li{
+    display: inline-block; 
+    padding-right: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: 2s;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: rgb(226, 6, 178);
+}
+.about{
+    width: 100%;
+    height: 50vh;
+    background-color:white;
+}
+.about-box1{
+    float: left;
+    width: 500px;
+    margin-left: 20%;
+    padding-top: 180px;
+}
+.about-box1 h2{
+    font-size: 30px;
+    font-family: serif;
+    padding-bottom: 10px;
+}
+.about-box1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    line-height: 25px;
+}
+.about-box2{
+    margin-right: 25%;
+    padding-top: 90px;
+}
+.about-box2 img{
+    width: 250px;
+    float: right;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.burger{
+    width: 100%;
+    height: 50vh;
+    background-color: #F7F7F7;
+}
+.burger-box1{
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin-left: 18%;
+    padding-top: 100px;
+}
+.burger-box1 img{
+    width: 100%;
+}
+.burger-box2 h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+.burger-box2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding: 15px 0 25px 0;
+}
+.burger-box2{
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-right: 18%;
+    padding-top: 150px;
+}
+.order-btn{
+    text-decoration: none;
+    color:dimgray;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.order-btn:hover{
+    color: rgb(5, 172, 41);
+    border: 3px solid green;
+    border-radius: 10px;
+    transition: .5s;
+}
+.menus img{
+    width: 100%;
+}
+.stuff-container{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    padding-left: 170px;
+    padding-top: 100px;
+}
+.stuff-header h2{
+    font-size: 40px;
+    color: rgb(240, 121, 78);
+    font-weight: 100;
+    padding-top: 100px;
+    text-align: center;
+    text-shadow:2px 2px 8px rgb(2, 68, 27);
+}
+.stuff-id{ 
+     width: 1000px;
+     margin: 0 auto;
+}
+.stuff{
+    float: left; 
+    padding-right: 150px;
+    text-align: center;
+}
+.stuff img{
+    border-radius: 50%;
+}
+.stuff h2{
+    font-weight: 100;
+    padding-top: 10px;
+}
+.stuff h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    padding-top: 10px;
+}
+.gallery{
+    width: 100%;
+    background-color: #F7F7F7 ;
+    height: 700px;
+}
+.food-part2{
+    padding-left: 150px;
+}
+.gallery h2{
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(26, 97, 228);
+    text-shadow:2px 2px 8px rgb(82, 14, 14);
+}
+.gallery img{
+    width: 300px;
+}
+.imgs-part{
+    width: 909px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-color: #111111;
+}
+.footer-boxs{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.footer-box1{
+    width:40% ;
+    padding-right: 10%;
+    float: left;
+}
+.footer-box1 h3{
+    font-weight: 100;
+    font-size: 30px;
+}
+.footer-box1 p{
+    padding-top: 10px;
+    line-height: 25px;
+    word-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-box2{
+    width: 40%;
+    padding-left: 10%;
+    float: right;
+    font-weight: 100;
+}
+.footer-box2 h4{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.copyright{
+    clear: both;
+    text-align:center ;
+    padding-top: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
